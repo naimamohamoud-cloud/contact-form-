@@ -37,6 +37,13 @@ input, textarea {
     box-sizing: border-box;
 }
 
+/* Placeholder styling */
+input::placeholder,
+textarea::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
 /* Button */
 button {
     width: 100%;
